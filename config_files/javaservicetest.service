@@ -1,0 +1,15 @@
+[Unit]
+Description=Proyecto Test Web Deploy
+After=syslog.target
+After=network.target[Service]
+
+[Service]
+User=root
+ExecStart=/usr/bin/java -jar /var/opt/pruebaWebDeploy-1.0-SNAPSHOT.jar
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=innovacion
+
+[Install]
+WantedBy=multi-user.target

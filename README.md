@@ -99,3 +99,10 @@ Se realiza la creación de VPN en aws:
     scp -i 'AlexKeyPair.pem' pruebaWebDeploy-1.0-SNAPSHOT.jar ec2-user@$id_ip_3:~/
 	
 	
+# Ejecución 
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_1.png)
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_2.png)
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_3.png)
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_4.png)
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_5.png)
+![](https://github.com/alexviatela/HelloWorldJava/blob/main/config_files/images/image_6.png)
